@@ -11,7 +11,18 @@ This repository serves as the starting point for a code demonstration.
 ## Step-by-Step Instructor Notes:
 
 ### Step 1: Introduction
-- Briefly introduce the topic of the code demo.
+- # Spring Boot REST API Demo
+
+Welcome to this code demonstration on building a RESTful API using Java Spring Boot! In this session, we'll explore the fundamental concepts of developing robust and scalable APIs with the popular Spring Boot framework.
+
+## Introduction:
+
+Building web services that follow the principles of Representational State Transfer (REST) is a crucial aspect of modern application development. RESTful APIs provide a standardized approach to communication between client and server, allowing seamless integration and data exchange.
+
+Throughout this demo, we'll delve into the essentials of creating RESTful endpoints, handling various HTTP methods, implementing service layers, and incorporating best practices for designing scalable APIs. Whether you're new to Spring Boot or looking to enhance your understanding of RESTful API development, this session is designed to provide practical insights and hands-on experience.
+
+Let's dive into the world of Spring Boot and uncover the power of creating efficient and well-designed RESTful APIs!
+.
 - Explain the purpose of the code and the learning objectives.
 
 ### Step 2: Setup
