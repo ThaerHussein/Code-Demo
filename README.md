@@ -61,11 +61,11 @@ Before we dive into the code demonstration, let's ensure we have the necessary p
 
 The code in [src/main/java/com/coded/RestWithSpringBoot/controller/](RestWithSpringBoot/src/main/java/com/coded/RestWithSpringBoot/controller/) serves as the starting point for our RESTful API. Here are key components to note:
 
-- **`DemoApplication.java`:**
+- **`RestWithSpringBootApplication.java`:**
   - The main application class that serves as the entry point.
   - Contains the `main` method to run the Spring Boot application.
 
-- **`DemoController.java`:**
+- **`CodedContoller.java`:**
   - A sample controller class with basic RESTful endpoints.
   - Demonstrates the use of annotations like `@RestController` and `@RequestMapping`.
 
@@ -76,7 +76,7 @@ Now that we've covered the prerequisites and code structure, let's proceed with 
 
 Now, let's dive into the code and explore each section step by step. We'll walk through the key components, explain essential concepts, and address potential challenges or questions.
 
-#### 3.1 - Application Entry Point (`DemoApplication.java`):
+#### 3.1 - Application Entry Point (`RestWithSpringBootApplication.java`):
    - Open `CodedContoller.java` and examine the main application class.
    - 1. **Annotation `@SpringBootApplication`:**
    - Observe the `@SpringBootApplication` annotation on the class. This annotation combines three commonly used annotations: `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan`.
@@ -97,7 +97,7 @@ Now, let's dive into the code and explore each section step by step. We'll walk 
    - Additional configurations can be specified in this class, such as external property files, database connections, or other settings required for the application.
    - Execute the `main` method to start the application and observe the console output.
 
-#### 3.2 - Controller and RESTful Endpoints (`DemoController.java`):
+#### 3.2 - Controller and RESTful Endpoints (`CodedContoller.java`):
    - Navigate to `CodedContoller.java` and explore the sample RESTful endpoints.
    - 1. **`@RestController`:**
    - The `@RestController` annotation is a specialized version of `@Controller`. It indicates that this class is a controller where every method returns data rather than a view.
