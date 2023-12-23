@@ -5,7 +5,7 @@ This repository serves as the starting point for a code demonstration.
 ## Instructions for Instructors:
 
 1. Clone this repository to your local machine.
-2. Review the code in [main/RestWithSpringBoot/src/main/java/com/coded/RestWithSpringBoot/controller](src/) to understand the starting point.
+2. Review the code in [main/RestWithSpringBoot](src/) to understand the starting point.
 3. Follow the step-by-step notes below to guide the code demonstration.
 
 ## Step-by-Step Instructor Notes:
