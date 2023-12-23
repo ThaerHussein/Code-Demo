@@ -59,7 +59,7 @@ Before we dive into the code demonstration, let's ensure we have the necessary p
 
 #### Codebase Overview:
 
-The code in [src/main/java/com/example/demo/](src/main/java/com/example/demo/) serves as the starting point for our RESTful API. Here are key components to note:
+The code in [src/main/java/com/example/demo/](RestWithSpringBoot/src/main/java/com/coded/RestWithSpringBoot/controller/) serves as the starting point for our RESTful API. Here are key components to note:
 
 - **`DemoApplication.java`:**
   - The main application class that serves as the entry point.
