@@ -59,7 +59,7 @@ Before we dive into the code demonstration, let's ensure we have the necessary p
 
 #### Codebase Overview:
 
-The code in [src/main/java/com/example/demo/](RestWithSpringBoot/src/main/java/com/coded/RestWithSpringBoot/controller/) serves as the starting point for our RESTful API. Here are key components to note:
+The code in [src/main/java/com/coded/RestWithSpringBoot/controller/](RestWithSpringBoot/src/main/java/com/coded/RestWithSpringBoot/controller/) serves as the starting point for our RESTful API. Here are key components to note:
 
 - **`DemoApplication.java`:**
   - The main application class that serves as the entry point.
@@ -77,7 +77,7 @@ Now that we've covered the prerequisites and code structure, let's proceed with 
 Now, let's dive into the code and explore each section step by step. We'll walk through the key components, explain essential concepts, and address potential challenges or questions.
 
 #### 3.1 - Application Entry Point (`DemoApplication.java`):
-   - Open `DemoApplication.java` and examine the main application class.
+   - Open `CodedContoller.java` and examine the main application class.
    - 1. **Annotation `@SpringBootApplication`:**
    - Observe the `@SpringBootApplication` annotation on the class. This annotation combines three commonly used annotations: `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan`.
    - It marks this class as the configuration class and enables auto-configuration and component scanning.
@@ -98,7 +98,7 @@ Now, let's dive into the code and explore each section step by step. We'll walk 
    - Execute the `main` method to start the application and observe the console output.
 
 #### 3.2 - Controller and RESTful Endpoints (`DemoController.java`):
-   - Navigate to `DemoController.java` and explore the sample RESTful endpoints.
+   - Navigate to `CodedContoller.java` and explore the sample RESTful endpoints.
    - 1. **`@RestController`:**
    - The `@RestController` annotation is a specialized version of `@Controller`. It indicates that this class is a controller where every method returns data rather than a view.
    - With `@RestController`, each method's return value is directly serialized into the HTTP response body, making it suitable for RESTful APIs.
